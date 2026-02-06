@@ -175,10 +175,3 @@ Med `gpt-4o-mini`:
 - Ca $0.60 per 1M output tokens
 - Typisk fråga kostar ca $0.001-0.005
 
-## Licens
-
-Detta projekt är skapat för utbildningssyfte.
-
----
-
-*Skapat som en del av Kunskapskontroll AI2*
