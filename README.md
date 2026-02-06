@@ -141,7 +141,7 @@ AI:n har tillgång till följande verktyg:
 ### Modell
 Använder `gpt-4o-mini` som standard (kan enkelt ändras i `src/llm.py`).
 
-## 🔬 Outlier-metoder
+## Outlier-metoder
 
 ### IQR-metoden
 Värden utanför `[Q1 - 1.5×IQR, Q3 + 1.5×IQR]` klassas som outliers.
@@ -153,7 +153,7 @@ z = 0.6745 × (x - median) / MAD
 ```
 Värden med |z| > 3.5 klassas som outliers.
 
-## 📈 Varför är detta viktigt?
+## Varför är detta viktigt?
 
 Medelvärden kan vara missvisande när data innehåller extremvärden. Till exempel:
 
