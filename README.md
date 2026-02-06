@@ -1,4 +1,4 @@
-# ⚽ Premier League Statistik Chatbot
+# Premier League Statistik Chatbot
 
 En Streamlit-baserad AI-chattbot som analyserar Premier League-statistik och fokuserar på **outliers** (extremvärden) som kan göra medelvärden missvisande. Använder **OpenAI API** med **tool calling** för intelligent analys.
 
@@ -6,7 +6,7 @@ En Streamlit-baserad AI-chattbot som analyserar Premier League-statistik och fok
 ![Streamlit](https://img.shields.io/badge/Streamlit-1.30+-red.svg)
 ![OpenAI](https://img.shields.io/badge/OpenAI-API-green.svg)
 
-## 🎯 Funktioner
+## Funktioner
 
 - **AI-driven chatt** - Ställ frågor på svenska om fotbollsstatistik
 - **OpenAI Tool Calling** - AI:n använder verktyg för att hämta faktisk data
@@ -21,14 +21,14 @@ En Streamlit-baserad AI-chattbot som analyserar Premier League-statistik och fok
 - **Jämförelse mellan lag** med insikter
 - **Session state** - Chatthistorik bevaras under sessionen
 
-## 📊 Tillgänglig statistik
+## Tillgänglig statistik
 
 För alla 20 Premier League-lag (38 matcher per lag):
 - **Inkast** (throw_ins): 12-35 normalt, outliers 38+
 - **Frisparkar** (fouls): 5-18 normalt, outliers 19+
 - **Skott** (shots): 5-22 normalt, outliers 28+
 
-## 🚀 Installation
+## Installation
 
 ### 1. Klona/ladda ner projektet
 
@@ -73,7 +73,7 @@ export OPENAI_API_KEY="din-api-nyckel-här"
 
 Du kan skaffa en API-nyckel på: https://platform.openai.com/api-keys
 
-## 🏃 Kör appen
+## Kör appen
 
 ```bash
 streamlit run app.py
@@ -81,7 +81,7 @@ streamlit run app.py
 
 Appen öppnas automatiskt i din webbläsare på `http://localhost:8501`.
 
-## 💬 Exempelfrågor
+## Exempelfrågor
 
 Här är några frågor du kan ställa:
 
@@ -102,7 +102,7 @@ Här är några frågor du kan ställa:
    - "Förklara skillnaden mellan medelvärde och median för Burnleys inkast"
    - "Vilka lag finns tillgängliga i databasen?"
 
-## 📁 Projektstruktur
+## Projektstruktur
 
 ```
 Kunskapskontroll - AI2/
@@ -119,7 +119,7 @@ Kunskapskontroll - AI2/
 └── README.md
 ```
 
-## 🤖 AI-arkitektur
+## AI-arkitektur
 
 ### System Prompt
 AI:n är konfigurerad som en fotbollsstatistik-analytiker som:
@@ -159,7 +159,7 @@ Medelvärden kan vara missvisande när data innehåller extremvärden. Till exem
 
 > "Arsenal har i snitt 24.3 inkast per match de senaste 10 matcherna. MEN - medianen är bara 21, och det trimmade medelvärdet är 21.5. Varför skillnaden? Jo, matchen mot Burnley stack ut med hela 42 inkast - en extrem outlier som drar upp snittet med nästan 3 inkast. Utan den matchen ligger snittet på 21.8, vilket ger en mer rättvisande bild av Arsenals normala spel."
 
-## 🛠️ Teknisk stack
+## Teknisk stack
 
 - **Streamlit** - Web-ramverk
 - **OpenAI** - LLM med tool calling
@@ -168,14 +168,14 @@ Medelvärden kan vara missvisande när data innehåller extremvärden. Till exem
 - **SciPy** - Statistiska funktioner (trimmed mean)
 - **Plotly** - Interaktiva grafer
 
-## 💰 Kostnadsestimering
+## Kostnadsestimering
 
 Med `gpt-4o-mini`:
 - Ca $0.15 per 1M input tokens
 - Ca $0.60 per 1M output tokens
 - Typisk fråga kostar ca $0.001-0.005
 
-## 📝 Licens
+## Licens
 
 Detta projekt är skapat för utbildningssyfte.
 
