@@ -1,0 +1,18 @@
+# Fotbollsstatistik Outlier Analys - Dependencies
+# Premier League Statistics Chatbot med OpenAI Tool Calling
+
+# Web-framework
+streamlit>=1.30.0
+
+# Data manipulation
+pandas>=2.0.0
+numpy>=1.24.0
+
+# Statistik
+scipy>=1.11.0
+
+# Visualisering
+plotly>=5.18.0
+
+# AI / LLM
+openai>=1.12.0
